@@ -1,0 +1,2 @@
+# Integer Overflow Bug in Hack
+This repository demonstrates a potential integer overflow bug in a simple Hack program. The functions `foo`, `bar`, and `baz` perform basic arithmetic operations. However, if the input `x` is sufficiently large, integer overflow can occur, leading to unexpected results or program crashes.  The `bugSolution.hack` file provides a solution that addresses this issue by using 64-bit integers which provide a much larger range, therefore significantly reducing the risk of integer overflow. 
